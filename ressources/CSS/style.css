@@ -1,17 +1,89 @@
+/* CSS basique*/
 *{
     margin:0;
     padding:0;
     font-family: Georgia, serif;
 }
 
-
+/* Header et navbar*/
 header{
     width: 100%;
-    height: 100px;
-    display:inline-block;
+    height: 60px;
     background-color: blue;
     font-size: 20px;
+    padding:20px auto;
 }
-ul li {
+h2{
+    width: 280px;
+    height: 35px;
     display: inline-block;
+    margin-top: 12px;
+}
+nav{
+    width: 280px;
+    height: 25px;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+
+}
+
+header li {
+    display: inline-block;
+    
+}
+
+/* Main */
+
+main{
+    position: relative;
+    width: 80%;
+    height: 550px;
+    left:10%;
+    background-color: red;
+}
+
+main h1{
+    text-align: center;
+}
+main img{
+    position: relative;
+    margin-left: 37% ;
+    background-color: white;
+    top:2%;
+}
+
+main p{
+    text-align: center;
+    position: relative;
+    top:5%;
+}
+
+/* 3 picture */
+
+.picture{
+    background-color: green;
+    width: 100%;
+    height:350px;
+    display: inline-flex;
+    justify-content: space-around;
+    
+}
+
+#first{
+    background-color: blue;
+}
+#second{
+    background-color: blue;
+}
+#third{
+    background-color: blue;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    opacity: 70%;
+    background-color: black;
 }
