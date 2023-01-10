@@ -24,6 +24,7 @@ header h2{
     margin-top: 12px;
     position: relative;
     left:25px;
+    
 }
 nav{
     width: 350px;
@@ -41,6 +42,7 @@ header li {
 }
 header ul{
     word-spacing: 20px;
+    letter-spacing: 2px;
 }
 
 /* Main */
@@ -57,6 +59,7 @@ main{
 
 main h1{
     text-align: center;
+    color:#111761;
 }
 main img{
     position: relative;
@@ -66,42 +69,71 @@ main img{
 }
 
 main p{
+    font-size: 20px;
     text-align: center;
+    width: 50%;
     position: relative;
     top:5%;
+    margin-left: 25%;
+    color:#111761;
 }
 
 /* 3 picture */
 
 .picture{
     width: 100%;
-    height:350px;
+    height:550px;
     display: inline-flex;
     justify-content: space-around;
     margin-bottom: 100px;
     
 }
+.picture h2{
+    color:#111761;
+    text-align: center;
+}
+.picture .des{
+    color:#111761;
+    margin-top: 25px;
+}
+.picture img{
+    margin-left: 12.5%;
+    margin-top: 15px;
+}
 
-#first{
+#first, #second, #third{
     background-color: #DEE1F4;
-    width: 280px;
+    width: 450px;
     height: 100%;
+    
 }
-#second{
-    background-color: #DEE1F4;
-    width: 280px;
-    height: 100%;
-}
-#third{
-    background-color: #DEE1F4;
-    width: 280px;
-    height: 100%;
-}
+
 
 /* Footer */
 
 footer{
     width: 100%;
     background-color: #111761;
-    height:100px;
+    height:120px;
 }
+footer ul {
+    height: 85%;
+    margin-left: 50px;
+    letter-spacing: 3px;
+    padding-top: 25px;
+    display: inline-block;
+}
+
+footer li{
+    padding-top: 5px;
+}
+
+footer p {
+    display: inline-block;
+    margin-left: 12.5%;
+    background-color: red;
+    
+}
+
+
+
