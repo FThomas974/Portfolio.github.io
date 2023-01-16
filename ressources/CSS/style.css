@@ -322,6 +322,11 @@ header .mobile {
   max-width: 100%;
   padding: 0 1%;
   display: inline-flex;
+  gap:50px;
+}
+#filters-section .images-container img{
+  width: 500px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -347,6 +352,12 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
+    flex-direction: column;
+    margin-left: 25%;
+  }
+  #filters-section .images-container img{
+    width: 300px;
+    height: 150px;
   }
 
   #filters-section .extra {
