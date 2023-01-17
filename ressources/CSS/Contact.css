@@ -93,14 +93,65 @@ html {
     }
   }
   
-  
+  /* main-content */
+
+  .main-content .contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 720px;
+    background-color: lightgray;
+    flex-direction: row;
+    gap:10px;
+    
+  }
+
+  .main-content .contact .linkedin, .mail, .instagram{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 140px auto;
+  }
+  .main-content .contact h2{
+    margin-left: 15px;
+    color:white
+  }
+  .main-content .contact .linkedin img{
+    width: 150px;
+    height: auto;
+  }
+
+  .main-content .contact .inline{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    border:  3px solid #444647;
+    border-radius: 30px;
+  }
+
+  .main-content .contact .inline img{
+    width: 45px;
+    height: 40px;
+    margin-right: 20px;
+    
+  }
+  .main-content .contact .instagram img{
+    width: 70px;
+    height: 45px;
+  }
+
+
   
   /* Quotes Section */
   
   #quotes-section {
     background-color: #f3f3f3;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   
   #quotes-section content {
