@@ -106,27 +106,25 @@ html {
     
   }
 
-  .main-content .contact .linkedin, .mail, .instagram{
+  .main-content .contact .linkedin, .mail, .github{
+    align-items: center;
     width: 450px;
     height: 500px;
-    background-color: white;
-    border-radius: 10px;
+    background-color: whitesmoke;
+    border-radius: 30px;
     margin: 140px auto;
+    
   }
   .main-content .contact h2{
     margin-left: 15px;
     color:white
-  }
-  .main-content .contact .linkedin img{
-    width: 150px;
-    height: auto;
   }
 
   .main-content .contact .inline{
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 99%;
     height: 50px;
     background-color: gray;
     border:  3px solid #444647;
@@ -139,12 +137,125 @@ html {
     margin-right: 20px;
     
   }
-  .main-content .contact .instagram img{
-    width: 70px;
+  .main-content .contact .github img{
+    width: 80px;
     height: 45px;
+  }
+  /* partie LinkedIn */
+
+  .main-content .contact .linkedin .page-linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%; 
+    
+  }
+  .main-content .contact .linkedin .page-linkedin .text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+  color:black;
+  
+  }
+  .main-content .contact .linkedin .page-linkedin .text span{
+    font-style: italic;
+    font-size: 14px;
+  }
+  .main-content .contact .linkedin .page-linkedin .img img{
+    border-radius: 15%;
+    width: 250px;
+    height: 150px;
+  }
+  .main-content .contact .linkedin .page-linkedin .img h2{
+    margin-top: 20px;
+    text-align: center;
+    color:black;
+  }
+  .main-content .contact .linkedin .page-linkedin .text h2{
+    color:black;
+  }
+
+  /* Partie Mail-1 */
+  .main-content .contact .mail .mail-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    margin-top: 10px;
+    
+  }
+  .main-content .contact .mail .mail-1 .text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+  }
+  .main-content .contact .mail .mail-1 .text span{
+    font-style: italic;
+    font-size: 13px;
+  }
+  .main-content .contact .mail .mail-1 .img img{
+    border-radius: 15%;
+    width: 200px;
+    height: 100px;
+  }
+  .main-content .contact .mail .mail-1 .img h2{
+    text-align: center;
+    color:black;
+  }
+  .main-content .contact .mail .mail-1 .text h2{
+    color:black;
+  }
+
+  /* separator */
+  .main-content .contact .mail .separator{
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    background-color: #383838;
   }
 
 
+  /* Partie Mail-2 */
+  .main-content .contact .mail .mail-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40%;
+    
+    
+    
+  }
+  .main-content .contact .mail .mail-2 .text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+  }
+  .main-content .contact .mail .mail-2 .text span{
+    font-style: italic;
+    font-size: 13px;
+  }
+  .main-content .contact .mail .mail-2 .img img{
+    border-radius: 15%;
+    width: 200px;
+    height: 100px;
+  }
+  .main-content .contact .mail .mail-2 .img h2{
+    text-align: center;
+    color:black;
+    
+  }
+  .main-content .contact .mail .mail-2 .text h2{
+    color:black;
+  }
+
+  
   
   /* Quotes Section */
   
