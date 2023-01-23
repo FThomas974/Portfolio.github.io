@@ -43,8 +43,18 @@ html {
   nav a {
     vertical-align: bottom;
     line-height: 1.6;
-    font-size: 1rem;
+    font-size: 16px;
     color: #4a4a4a;
+    transition: font-size 1s;
+    
+
+  }
+
+  .desktop li :hover{
+    color:black;
+    border-bottom: 2px solid #4d88ca;
+    font-size: 20px;
+
   }
   
   header .icon {
@@ -85,6 +95,10 @@ html {
       padding: 0;
     }
   
+    header .mobile li img {
+      width: 30px;
+      height: auto;
+    }
     header .mobile .button {
       padding: .1875rem .5rem;
       background-color: #9dc20b;
