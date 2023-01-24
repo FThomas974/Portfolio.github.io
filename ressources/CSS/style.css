@@ -138,12 +138,7 @@ html {
       height: auto;
     }
   
-    header .mobile .button {
-      padding: .1875rem .5rem;
-      background-color: #9dc20b;
-      line-height: 1.6;
-      color: white;
-    }
+
   }
   
 
@@ -161,10 +156,22 @@ html {
     align-items: center;
   }
 
-
+  .main .main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d88ca;
+    border: 3px solid lightblue;
+    box-shadow: grey 3px 3px;
+    margin-bottom: 150px;
+  }
   .main h1{
     color:white;
     display: flex;
+    font-family: 'Aboreto', cursive;
+    font-weight: bold;
+    font-size: 25px;
   }
   
   /* Footer */
