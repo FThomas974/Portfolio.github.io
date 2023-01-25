@@ -46,6 +46,50 @@ html {
   }
   
   /* Header */
+
+
+  /* styles pour le mode sombre */
+  input[type="radio"].demo2 {
+    display: none;
+  }
+  input[type="radio"].demo2 + label {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1rem;
+    color: #fff;
+    background-color:lightgrey;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+  }
+  input[type="radio"].demo2.demoyes:hover + label {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color:black;
+  }
+  input[type="radio"].demo2.demoyes:checked + label {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color:black;
+  }
+  input[type="radio"].demo2.demono:hover + label {
+    background-color: black;
+    border-color: black;
+  }
+  input[type="radio"].demo2.demono:checked + label {
+    background-color: black;
+    border-color: black;
+  }
+  @media only screen and (max-width: 760px) {
+    input[type="radio"].demo2 + label{
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+      line-height: 1;
+      color: #fff;
+      background-color:lightgrey;
+      border: 1px solid transparent;
+    }
+    }
   
   header {
     position: fixed;
@@ -93,6 +137,7 @@ html {
     color:black;
     border-bottom: 2px solid #4d88ca;
     font-size: 20px;
+    
 
   }
   
@@ -111,7 +156,7 @@ html {
       display: none;
     }
     header{
-      height: 3rem;
+      height: 3.5rem;
     }
     header .mobile {
       display: block;
@@ -136,7 +181,15 @@ html {
     header .mobile li img {
       width: 30px;
       height: auto;
+      transition: width 1.5s,border 1s,border-radius 1s;
+
     }
+    header .mobile li  img:hover{
+      width: 40px;
+      border:3px solid #4d88ca;
+      border-radius: 15px;
+    }
+
   
 
   }
@@ -172,6 +225,9 @@ html {
     font-family: 'Aboreto', cursive;
     font-weight: bold;
     font-size: 25px;
+  }
+  .main  :hover{
+    box-shadow: 1px 1px white;
   }
   
   /* Footer */
