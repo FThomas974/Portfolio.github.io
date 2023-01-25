@@ -1,5 +1,358 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: Georgia, serif;
-}
+/* Universal Styles */
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  
+  
+
+
+  /* Header */
+  
+  header {
+    position: fixed;
+    z-index:2;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    height: 85px;
+  }
+  
+  header .content {
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+    
+  }
+  
+  header .logo {
+    margin-left: 30px;
+    flex: 1;
+  
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    padding-left: 3.5rem;
+  }
+  
+  nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #4a4a4a;
+  }
+  
+  header .icon {
+    width: 1rem;
+    padding-left: .75rem;
+    margin-right: 30px;
+  }
+  
+  header .mobile {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    header .desktop {
+      display: none;
+    }
+    header{
+      height: 3rem;
+    }
+    header .mobile {
+      display: block;
+      width: 100%;
+      
+    }
+  
+    header .content {
+      padding: 0.5rem 0;
+    }
+  
+    header .mobile ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    header .mobile li {
+      padding: 0;
+    }
+  
+    header .mobile .button {
+      padding: .1875rem .5rem;
+      background-color: #9dc20b;
+      line-height: 1.6;
+      color: white;
+    }
+  }
+  
+  /* main-content */
+
+  .main-content .contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 720px;
+    flex-direction: row;
+    gap:10px;
+    
+  }
+
+  .main-content .contact .linkedin, .mail, .github{
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    border: solid 5px #444647;
+    border-radius: 30px;
+    margin: 140px auto;
+    
+  }
+  .main-content .contact h2{
+    margin-left: 15px;
+    color:white;
+  }
+
+  .main-content .contact .inline{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+    height: 50px;
+    background-color: gray;
+    border:  2px solid #444647;
+    border-radius: 30px;
+  }
+
+  .main-content .contact .inline img{
+    width: 45px;
+    height: 40px;
+    margin-right: 20px;
+    
+  }
+  .main-content .contact .github img{
+    width: 80px;
+    height: 45px;
+  }
+  /* partie LinkedIn */
+
+  .main-content .contact .linkedin .page-linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%; 
+    
+  }
+  .main-content .contact .linkedin .page-linkedin .text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+  color:black;
+  
+  }
+  .main-content .contact .linkedin .page-linkedin .text span{
+    font-style: italic;
+    font-size: 14px;
+  }
+  .main-content .contact .linkedin .page-linkedin .img img{
+    border-radius: 15%;
+    width: 200px;
+    height: 150px;
+  }
+  .main-content .contact .linkedin .page-linkedin .img h2{
+    margin-top: 20px;
+    text-align: center;
+    color:black;
+  }
+  .main-content .contact .linkedin .page-linkedin .text h2{
+    color:black;
+  }
+
+  /* Partie Mail-1 */
+  .main-content .contact .mail .mail-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    margin-top: 10px;
+    
+  }
+  .main-content .contact .mail .mail-1 .text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+  }
+  .main-content .contact .mail .mail-1 .text span{
+    font-style: italic;
+    font-size: 13px;
+  }
+  .main-content .contact .mail .mail-1 .img img{
+    border-radius: 15%;
+    width: 200px;
+    height: 100px;
+  }
+  .main-content .contact .mail .mail-1 .img h2{
+    text-align: center;
+    color:black;
+  }
+  .main-content .contact .mail .mail-1 .text h2{
+    color:black;
+  }
+
+  /* separator */
+  .main-content .contact .mail .separator{
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    background-color: #383838;
+  }
+
+
+  /* Partie Mail-2 */
+  .main-content .contact .mail .mail-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40%;
+    
+    
+    
+  }
+  .main-content .contact .mail .mail-2 .text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+  }
+  .main-content .contact .mail .mail-2 .text span{
+    font-style: italic;
+    font-size: 13px;
+  }
+  .main-content .contact .mail .mail-2 .img img{
+    border-radius: 15%;
+    width: 200px;
+    height: 100px;
+  }
+  .main-content .contact .mail .mail-2 .img h2{
+    text-align: center;
+    color:black;
+    
+  }
+  .main-content .contact .mail .mail-2 .text h2{
+    color:black;
+  }
+
+    /* partie GitHub */
+
+    .main-content .contact .github .page-github{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 80%; 
+      
+    }
+    .main-content .contact .github .page-github .text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+    color:black;
+    
+    }
+    .main-content .contact .github .page-github .text span{
+      font-style: italic;
+      font-size: 14px;
+    }
+    .main-content .contact .github .page-github .img img{
+      border-radius: 15%;
+      width: 150px;
+      height: 150px;
+    }
+    .main-content .contact .github .page-github .img h2{
+      margin-top: 20px;
+      text-align: center;
+      color:black;
+    }
+    .main-content .contact .github .page-github .text h2{
+      color:black;
+    }
+  
+  
+  /* Quotes Section */
+  
+  #quotes-section {
+    background-color: #f3f3f3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  #quotes-section content {
+    padding: 5rem 0;
+  }
+  
+  #quotes-section .quote {
+    padding-right: 1.875rem;
+    font-family: "Palatino", serif;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    font-style: italic;
+    color: #4a4a4a;
+  }
+  
+  #quotes-section quote-citation {
+    height: 1.875rem;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    #quotes-section content {
+      padding: 1.875rem .625rem;
+    }
+  
+    #quotes-section quote {
+      font-size: 1.5rem;
+      line-height: 1.4;
+    }
+  
+    #quotes-section quote-citation {
+      display: block;
+      padding-top: 1rem;
+      margin: auto;
+    }
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #9b9b9b;
+    padding: 1.5rem 2rem;
+  }
+  
+  footer .content {
+    color: white;
+    display: flex;
+    font-size: .75rem;
+  }
+  
+  footer .copyright {
+    flex-grow: 1;
+  }
+  
+  @media only screen and (min-width: 760px) {
+    footer .content {
+      font-size: .625rem;
+    }
+  }
