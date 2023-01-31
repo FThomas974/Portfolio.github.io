@@ -273,6 +273,23 @@ header .mobile {
   background-color: white;
   opacity: 90%;
   transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Itim', cursive;
+}
+.back .inline-flex-card{
+  display: inline-flex;
+}
+.back .inline-flex-card img{
+  width: 20px;
+  height: auto;
+}
+.back .inline-flex-card .sql{
+  width: 50px;
+  height: auto;
 }
 
 .card.flipped {
