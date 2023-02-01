@@ -270,7 +270,10 @@ header .mobile {
 }
 
 .back {
-  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   opacity: 90%;
   transform: rotateY(180deg);
   display: flex;
@@ -279,6 +282,29 @@ header .mobile {
   justify-content: center;
   align-items: center;
   font-family: 'Itim', cursive;
+}
+.reseau{
+  background-image: url('../images/fondbleu.jpg');
+}
+.web{
+  background-image: url('../images/fondweb.png');
+}
+.prog{
+  background-image: url('../images/fondprog.gif');
+}
+.cyber{
+  background-image: url('../images/fondcyber.gif');
+}
+.insta{
+  background-image: url('../images/fondinsta.jpg');
+}
+.soudure{
+  background-image: url('../images/fondsoudure.png');
+}
+.back p{
+  color:white;
+  font-size: 1.5rem;
+  text-align: center;
 }
 .back .inline-flex-card{
   display: inline-flex;
@@ -298,17 +324,9 @@ header .mobile {
 
 
 
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 1000px) {
   .main{
-    height: 2000px;
+    height: 2500px;
   }
   .main .main-content-up{
     display: flex;

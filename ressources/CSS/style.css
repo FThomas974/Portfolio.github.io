@@ -219,6 +219,7 @@ html {
     box-shadow: grey 3px 3px;
     margin-bottom: 150px;
   }
+  
   .main h1{
     color:white;
     display: flex;
@@ -226,8 +227,18 @@ html {
     font-weight: bold;
     font-size: 25px;
   }
-  .main  :hover{
-    box-shadow: 1px 1px white;
+  .main .main-content .logo{
+    width: 70px;
+    height: auto;
+    margin-right: 15px;
+  }
+  .main .main-content #linkedin{
+    padding-right: 15px;
+  }
+  .main .main-content #git{
+    width: 90px;
+    height: auto;
+    padding-bottom: 10px;
   }
   
   /* Footer */
