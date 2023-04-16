@@ -270,6 +270,11 @@ header .mobile {
 }
 
 .back {
+<<<<<<< HEAD
+  background-color: white;
+  opacity: 90%;
+  transform: rotateY(180deg);
+=======
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -316,6 +321,7 @@ header .mobile {
 .back .inline-flex-card .sql{
   width: 50px;
   height: auto;
+>>>>>>> 345e0813c364f210cf132738eb1d698e60f737dd
 }
 
 .card.flipped {
@@ -324,9 +330,23 @@ header .mobile {
 
 
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  .main{
+    height: 2000px;
+=======
 @media only screen and (max-width: 1000px) {
   .main{
     height: 2500px;
+>>>>>>> 345e0813c364f210cf132738eb1d698e60f737dd
   }
   .main .main-content-up{
     display: flex;
