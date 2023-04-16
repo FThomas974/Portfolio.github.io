@@ -57,3 +57,17 @@ for (var i = 0; i < card.length; i++) {
 // card2.addEventListener('click', function(){
 //   card2.classList.toggle('flipped');
 // });
+
+const toggleBtn = document.getElementById('toggleBtn');
+
+
+toggleBtn.addEventListener('click', () => {
+  const effectDiv = document.querySelector('.effect');
+  if (effectDiv.classList.contains('active')) {
+    effectDiv.classList.remove('active');
+    toggleBtn.innerText = "Afficher";
+  } else {
+    effectDiv.classList.add('active');
+    toggleBtn.innerText = "Masquer";
+  }
+});
